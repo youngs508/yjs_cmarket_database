@@ -8,7 +8,7 @@ const con = mysql.createConnection(
 );
 
 con.connect((err) => {
-  if (err) throw err;
+  if (err) throw(err);
 });
 
 module.exports = con;
